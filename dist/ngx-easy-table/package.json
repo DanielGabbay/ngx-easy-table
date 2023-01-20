@@ -1,0 +1,50 @@
+{
+  "name": "ngx-easy-table",
+  "version": "15.4.1",
+  "description": "Angular easy table",
+  "typings": "index.d.ts",
+  "repository": "https://github.com/ssuperczynski/ngx-easy-table.git",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/cdk": ">=13.0.0",
+    "@angular/common": ">=13.0.0",
+    "@angular/core": ">=13.0.0",
+    "ngx-pagination": "^6.0.3"
+  },
+  "dependencies": {
+    "ngx-pagination": "^6.0.3",
+    "tslib": "^2.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/ssuperczynski/ngx-easy-table/issues"
+  },
+  "homepage": "https://github.com/ssuperczynski/ngx-easy-table",
+  "main": "main.js",
+  "keywords": [
+    "angular",
+    "table",
+    "angular table",
+    "angular-table",
+    "ngx-easy-table"
+  ],
+  "author": "Sebastian Superczynski <s.superczynski@gmail.com>",
+  "module": "fesm2015/ngx-easy-table.mjs",
+  "es2020": "fesm2020/ngx-easy-table.mjs",
+  "esm2020": "esm2020/ngx-easy-table.mjs",
+  "fesm2020": "fesm2020/ngx-easy-table.mjs",
+  "fesm2015": "fesm2015/ngx-easy-table.mjs",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/ngx-easy-table.mjs",
+      "es2020": "./fesm2020/ngx-easy-table.mjs",
+      "es2015": "./fesm2015/ngx-easy-table.mjs",
+      "node": "./fesm2015/ngx-easy-table.mjs",
+      "default": "./fesm2020/ngx-easy-table.mjs"
+    }
+  },
+  "sideEffects": false
+}
