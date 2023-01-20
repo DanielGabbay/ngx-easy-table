@@ -18,6 +18,7 @@ export enum API {
   setCellClass = 'setCellClass',
   setRowStyle = 'setRowStyle',
   setCellStyle = 'setCellStyle',
+  setLoader = 'setLoader',
   sortBy = 'sortBy',
 }
 
@@ -62,6 +63,7 @@ export type ApiType =
   | { type: API.setCellClass; value: CellClass | CellClass[] }
   | { type: API.setRowStyle; value: RowStyle | RowStyle[] }
   | { type: API.setCellStyle; value: CellStyle | CellStyle[] }
+  | { type: API.setLoader; value: boolean }
   | { type: API.sortBy; value: { column: string; order: 'asc' | 'desc' } };
 
 export interface APIDefinition {
